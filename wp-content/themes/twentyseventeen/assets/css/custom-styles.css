@@ -1,0 +1,84 @@
+#menu-item-51 a {
+	color: #fff;
+	position: relative;
+	height: 115px;
+}
+#menu-item-51 a:before {
+	content: '';
+	background-image: url('https://mailelucks.com/wp-content/uploads/2017/08/mitch_logo.png');
+	background-size: contain;
+	background-position: center center;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.page .panel-content .entry-title  {
+	margin-bottom: 1.5rem;
+}
+#panel1 .entry-header, #panel1 .entry-content {
+	width: 100%!important;
+}
+.artist-row {
+	display: flex;
+	display: -webkit-flex;
+	align-items: flex-start;
+	-webkit-align-items: flex-start;
+	flex-flow: row wrap;
+	-webkit-flex-flow: row wrap;
+}
+.aritst-block {
+	display: inline-block;
+	width: 100%;
+	padding: 0 1rem;
+}
+.artist-image {
+	width: 250px;
+	height: 250px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin: 0 auto 1.5rem;
+}
+.artist-image#ecussionist {
+	background-image: url('https://mailelucks.com/wp-content/uploads/2017/08/ecussionist.jpg');
+}
+.artist-image#eddie {
+	background-image: url('https://mailelucks.com/wp-content/uploads/2017/08/eddie_watson.png');
+}
+.artist-image#jason {
+	background-image: url('https://mailelucks.com/wp-content/uploads/2017/08/jason_leech.jpg');
+}
+.artist-title img {
+	width: 100%;
+}
+@media screen and (min-width: 48em) {
+	.navigation-top {
+		min-height: 130px;
+	}
+	.js .main-navigation > div > ul {
+		display: flex!important;
+		display: -webkit-flex!important;
+		align-items: center;
+		-webkit-align-items: center;
+	}
+	#menu-item-51 a {
+		max-width: 100px;
+		height: 100px;
+		margin-right: 1rem;
+	}
+	.page .panel-content .entry-title {
+		font-size: 1.5rem;
+	}
+	.aritst-block {
+		width: 33%;
+	}
+
+}
